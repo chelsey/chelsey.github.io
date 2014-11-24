@@ -24,6 +24,7 @@ header {
 }
 
 .hero-section {
+  top: 45px;
   position: relative;
   z-index: 0;
   height: 700px;
@@ -131,6 +132,10 @@ header {
     }
 }
 
+.play-container, .outlook-container, .meet-you-container {
+  padding-bottom: 50px;
+}
+
 .portfolio-item {
   padding: 20px;
   margin: 10px;
@@ -140,6 +145,7 @@ header {
 .project-description {
   vertical-align: middle;
   padding-top: 25px;
+  padding-bottom: 50px;
 }
 
 .portfolio-item:hover .fade-in-description {
@@ -170,4 +176,15 @@ header {
   background-color: #576AA1;
   color: white;
 }
-  ;
+
+@media (min-width: 992px) {
+  #cycling-img { height: 395px; }
+}
+
+@media (max-width: 992px) {
+  #cycling-img { height: 284px; }
+}
+
+@media (max-width: 767px) {
+  #cycling-img { height: auto; }
+}
