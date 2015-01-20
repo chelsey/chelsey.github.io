@@ -3,18 +3,16 @@
 /* 398 x 265 - tiled images */
 
 body {
-/*  background-color: #212528;*/
   background-color: white;
   font-family: 'Montserrat', sans-serif;
-/*  color: white;*/
 }
 
 header {
   display: table;
   position: relative;
   width: 100%;
-  height: 100%;
-  background: url(images/sunset-for-port.jpg) no-repeat center center scroll;
+  height: 90vh;
+  background: url(sunset-for-port.jpg) no-repeat 0 center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -26,7 +24,6 @@ header {
   top: 45px;
   position: relative;
   z-index: 0;
-  height: 90vh;
 }
 
 .btn-default {
@@ -232,10 +229,13 @@ p {
   color: white;
 }
 
-#cycling-img { height: 235px; }
+.cycling-img {
+  height: 235px;
+}
 
 @media (max-width: 768px) {
-  #cycling-img { height: auto; }
+  header { background-size: auto 90vh; }
+  .cycling-img { height: auto; }
   .portfolio-row { height: 700px; }
   .last-row { height: 550px;}
   .project-description { padding-left: 25px; }
