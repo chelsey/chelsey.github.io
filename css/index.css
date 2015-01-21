@@ -234,7 +234,12 @@ p {
 }
 
 @media (max-width: 768px) {
-  header { background-size: auto 90vh; }
+  header {
+    background-position: -85px 0;
+    background-size: auto 400px;
+    height: 405px;
+  }
+
   .cycling-img { height: auto; }
   .portfolio-row { height: 700px; }
   .last-row { height: 550px;}
