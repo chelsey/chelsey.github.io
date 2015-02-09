@@ -18,9 +18,8 @@ $(function () {
       var topOfWindow = $(window).scrollTop();
 
       if (topOfWindow > navigatorPosition - $(this).height() ) {
-        $(this).addClass('reveal');
-        $(this).css({opacity: 1});
-      }
+        $(this).fadeTo( 600, 1);
+      };
     });
   });
 });

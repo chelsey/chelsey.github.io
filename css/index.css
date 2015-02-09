@@ -150,6 +150,11 @@ header {
     transform: translateY(0) scale(.9);
   }
 
+  50% {
+    opacity: .50;
+    transform: translateY(0) scale(.95);
+  }
+
   100% {
     opacity: 1;
     transform: translateY(0) scale(1);
@@ -161,7 +166,7 @@ header {
 }
 
 .portfolio-row {
-  height: 550px;
+  height: 450px;
   opacity: 0;
 }
 
@@ -241,8 +246,7 @@ p {
   }
 
   .cycling-img { height: auto; }
-  .portfolio-row { height: 700px; }
-  .last-row { height: 550px;}
+  .portfolio-row { height: 550px; }
   .project-description { padding-left: 25px; }
   .play-container { padding-bottom: 160px; }
   .list-inline > .instagram-li { display: none; }
